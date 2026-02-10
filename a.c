@@ -2,7 +2,7 @@
 
 void main(){
 
-    /*
+/*
     // sum of All the Even number's
 
     int n;
@@ -21,7 +21,7 @@ void main(){
 
     printf("The sum of Digit %d", sum);
 
-    */
+*/
 
      /*
 
@@ -80,7 +80,7 @@ void main(){
 
     while (n!=0)
     {
-        
+
         if(n % 2 != 0){
             r = r*10;
             r = r +(n%10);
@@ -103,7 +103,7 @@ void main(){
 
     while (n!=0)
     {
-        
+
         if(n % 2 == 0){
             r = r*10;
             r = r +(n%10);
@@ -166,7 +166,7 @@ void main(){
     }else{
         printf("Addiction : %d" , add);
     }
-    
+
     */
 
 }
