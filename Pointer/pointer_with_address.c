@@ -6,7 +6,6 @@ int main(){
 
     ptr=&a;
 
-
     printf("%d \n", a);
     printf("%p \n", &a);
     printf("%p \n", ptr);
