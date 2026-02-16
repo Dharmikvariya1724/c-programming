@@ -1,8 +1,10 @@
+// WAP In This sequence: 3 5 7 12 15 17 22 25 27
+
 #include<stdio.h>
 
 void main(){
 
- int i, j;
+ // int i, j;
 /*
 for(i=1; i<=27; ++i)
 {
@@ -101,6 +103,7 @@ for(i=1; i<9; i++)
     }
 
 */
+/*
 int num = 3;
 for(i=0;i<9;i++){
     printf("%d ",num);
@@ -111,6 +114,103 @@ for(i=0;i<9;i++){
         num+=2;
     }
 }
+*/
+/*
+    int num = 3;
+    int count = 0;
+
+    while (count < 9) {
+        printf("%d ", num);
+        count++;
+
+        if (count % 3 == 0) {
+            num += 5;
+        } else {
+            num += 2;
+        }
+    }
+*/
+
+/*
+    int n = 3;
+    int i,r;
+
+    printf("Enter a Number :");
+    scanf("%d", &r);
+
+    printf("%d ", n);
+
+    for(i = 1; i < r; i++)
+    {
+        if(i==1 || i==2 || i==5 || i==8)
+        {
+            n+=2;
+        }
+        else if(i==3 || i==6)
+        {
+            n+=5;
+        }
+        else{
+            n+=3;
+        }
+        printf("%d ", n);
+    }
+*/
+
+/*
+
+    int n = 3;
+    int i,r,num;
+
+    printf("Enter a Number :");
+    scanf("%d", &r);
+
+    printf("%d ", n);
+
+    for(i = 1; i < r; i++)
+    {
+        num = i%7;
+
+        if(num==1 || num==2 || num==5 )
+        {
+            n+=2;
+        }
+        else if(num==3 || num==6)
+        {
+            n+=5;
+        }
+        else{
+            n+=3;
+        }
+        printf("%d ",n);
+    }
+*/
+
+
+    int n = 3;
+    int i,r;
+
+    printf("Enter a Number :");
+    scanf("%d", &r);
+
+    printf("%d ", n);
+
+    for(i = 1; i < r; i++)
+    {
+        if(i % 3 == 0)
+        {
+            n += 5;
+        }
+        else if(i % 3 == 1 && i != 1)
+        {
+            n += 3;
+        }
+        else
+        {
+            n += 2;
+        }
+        printf("%d ",n);
+    }
 
 
 getchar();
