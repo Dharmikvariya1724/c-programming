@@ -13,7 +13,7 @@ void main(){
         n=n/10;
     }
     if(c==arm){
-        printf("This Is Armstrong Number :)");
+        printf("This Is Armstrong Number :) %d", c);
     }else{
         printf("Not Armstrong Number :(");
     }
